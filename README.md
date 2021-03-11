@@ -1,4 +1,4 @@
 ## SQL_queries
-# queries back up
-sql files whith queries exercises
-some excercise use AdventureWorks2019.bak a pretty known sample DB
+# Queries back up
+SQL files whith queries exercises. <br>
+Some excercise use AdventureWorks2019.bak a pretty known sample DB.
