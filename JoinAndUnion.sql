@@ -46,7 +46,6 @@ INNER JOIN Person.BusinessEntityContact AS C
 ON A.BusinessEntityID = C.BusinessEntityID
 WHERE A.AddressID > 1000 
 
-
 /*
 3.
 Indicate the product photo id (productphotoid), the photo file name (thumbnailphotofilename), 
@@ -62,10 +61,6 @@ INNER JOIN Production.ProductProductPhoto AS PP
 ON P.ProductPhotoID = PP.ProductPhotoID
 WHERE PP.ProductID BETWEEN 920 AND 931
 	AND P.ThumbnailPhotoFileName IS NOT NULL
-
-
-
-
 
 --4
 /*
@@ -89,7 +84,6 @@ ON O.WorkOrderID = R.WorkOrderID
 WHERE O.WorkOrderID < 100 
 	AND R.OperationSequence BETWEEN 1 AND 2 AND R.LocationID = 10
 GROUP BY SUM(o.OrderQty)
-
 
 --5
 /*
